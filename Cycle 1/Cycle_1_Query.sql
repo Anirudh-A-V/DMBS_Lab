@@ -1,4 +1,4 @@
-create table staff(staffid integer, stffirstname varchar(30),stflastname varchar(30), stfstreetaddress varchar(30),stfcity varchar(30), stfstate varchar(30), stfzipcode integer, stfareacode integerm stfphonenumber varchar(30), datehireddate, salary float, position varchar(30), primary key(staffid));
+create table staff(staffid integer, stffirstname varchar(30),stflastname varchar(30), stfstreetaddress varchar(30),stfcity varchar(30), stfstate varchar(30), stfzipcode integer, stfareacode integer, stfphonenumber varchar(30), datehireddate date, salary float, position varchar(30), primary key(staffid));
 
 create table faculty(staffid integer, title varchar(30), status varchar(30), tenured date, primary key(staffid));
 
